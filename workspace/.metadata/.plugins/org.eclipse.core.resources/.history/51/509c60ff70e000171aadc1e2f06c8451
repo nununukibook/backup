@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("メソッドを呼び出します");
+		hello("湊");
+		hello("朝香");
+		hello("菅原");
+		System.out.println("システムの呼び出しが終わりました");
+	}
+	public static void hell(Stering name){
+		System.out.println(name + "さん、こんにちは");
+	}
+}
