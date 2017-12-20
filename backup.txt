@@ -1,0 +1,12 @@
+コマンドプロンプト
+
+cd \backup
+
+git add --all
+
+git commit -m "日付"
+
+git push
+
+choromeから　/name
+

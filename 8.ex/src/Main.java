@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Cleric h=new Cleric();
+		h.name="ミナト";
+		System.out.println("聖職者"+h.name+"を召還した！");
+
+
+		h.selfAid();
+
+	}
+
+}

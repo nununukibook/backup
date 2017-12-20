@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+
+/**
+ * @author internousdev
+ *
+ */
+public class Test {
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Person taro=new Person();
+		taro.name="木村次郎";
+		taro.age=18;
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+		Person hanako=new Person();
+		hanako.name="鈴木花子";
+		hanako.age=16;
+		System.out.println(hanako.age);
+		System.out.println(hanako.age);
+	}
+
+}
+
