@@ -15,9 +15,9 @@ public class Test {
 		taro.talk();
 		taro.walk();
 		taro.run();
-		
+
 		System.out.println("\n");
-		
+
 		Person naoki=new Person();
 		naoki.name="桑本直樹";
 		naoki.age=25;
@@ -31,9 +31,9 @@ public class Test {
 		naoki.talk();
 		naoki.walk();
 		naoki.run();
-		
+
 		System.out.println("\n");
-		
+
 		Person jiro=new Person();
 		jiro.name="木村次郎";
 		jiro.age=18;
@@ -47,9 +47,9 @@ public class Test {
 		jiro.talk();
 		jiro.walk();
 		jiro.run();
-		
+
 		System.out.println("\n");
-		
+
 		Person hanako=new Person();
 		hanako.name="鈴木花子";
 		hanako.age=16;
