@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		introduceOneself();
+		
+
+	}
+	public static void introduceOneself(){
+		String name="naoki";
+		int age=25;
+		double height=167.0;
+		char gender='男';
+		
+		System.out.println("私は"+name+age+height+gender);
+	}
+}

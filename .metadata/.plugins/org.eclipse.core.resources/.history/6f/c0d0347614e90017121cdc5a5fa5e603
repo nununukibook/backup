@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String title="お誘い";
+		String address="xxx@xxxx";
+		String text="lol";
+		
+		email(title,address,text);
+	}
+	public static void email(String address,String title,String text){
+		System.out.println(address+title+text);
+	}
+}
