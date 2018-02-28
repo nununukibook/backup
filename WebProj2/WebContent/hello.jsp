@@ -8,13 +8,9 @@
 <title>HelloStruts</title>
 </head>
 <body>
-<<<<<<< HEAD:WebProj3/WebContent/hello.jsp
 <h1>HelloStruts2!</h1>
 <br>
-<h3><s:property value="result" /></h3>
-=======
-<h1>HelloStruts2</h1>
->>>>>>> 4c57c2379ec527a364325b46aedfe4e7e9996492:WebProj/WebContent/hello.jsp
+<h3>MYSQLと接続できます。</h3>
 
 </body>
 </html>
