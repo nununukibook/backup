@@ -1,14 +1,19 @@
+
 public class ChkLoadJdbc {
-	public static void main(String[] args) throws InstantiationException,IllegalAccessException {
-		String msg="";
-		try{
+	public static void main(String[] args) throws InstantiationException,
+IllegalAccessException {
+		String msg ="";
+		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			msg="ドライバのロードに成功しました";
-		}	catch (ClassNotFoundException e){
-			msg="ドライバのロードに失敗しました";
+			msg ="ドライバーのロードに成功しました";
+			
+		} catch (ClassNotFoundException e){
+			msg ="ドライバーのロードに失敗しました";
+			
 		}
-		System.out.println(msg);
 		
+		System.out.println(msg);
+
 	}
 
 }
